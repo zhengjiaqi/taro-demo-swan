@@ -68,85 +68,76 @@ export default class Index extends Component {
             // }
           ]
         },
+        {
+          id: 'page',
+          name: '界面',
+          open: false,
+          pages: [
+            {
+              zh: '设置界面标题',
+              url: 'set-navigation-bar-title'
+            }, {
+              zh: '标题栏加载动画',
+              url: 'navigation-bar-loading'
+            }, {
+              zh: '页面跳转',
+              url: 'navigator'
+            }, {
+              zh: '下拉刷新',
+              url: 'pull-down-refresh'
+            }, {
+              zh: '创建动画',
+              url: 'animation'
+            }, {
+              zh: '显示操作菜单',
+              url: 'action-sheet'
+            }, {
+              zh: '显示模态弹窗',
+              url: 'modal'
+            }, {
+              zh: '显示消息提示框',
+              url: 'toast'
+            }
+          ]
+        },
+        {
+          id: 'device',
+          name: '设备',
+          open: false,
+          pages: [
+            {
+              zh: '获取手机网络状态',
+              url: 'get-network-type'
+            }, {
+              zh: '获取手机系统信息',
+              url: 'get-system-info'
+            }, {
+              zh: '打电话',
+              url: 'make-phone-call'
+            }, {
+              zh: '扫码',
+              url: 'scan-code'
+            }
+          ]
+        },
+        {
+          id: 'network',
+          name: '网络',
+          open: false,
+          pages: [
+            {
+              zh: '发起一个请求',
+              url: 'request'
+            }, {
+              zh: '上传文件',
+              url: 'upload-file'
+            }, {
+              zh: '下载文件',
+              url: 'download-file'
+            }
+          ]
+        },
         // {
-        //   id: 'page',
-        //   name: '界面',
-        //   open: false,
-        //   pages: [
-        //     {
-        //       zh: '设置界面标题',
-        //       url: 'set-navigation-bar-title'
-        //     }, {
-        //       zh: '标题栏加载动画',
-        //       url: 'navigation-bar-loading'
-        //     }, {
-        //       zh: '页面跳转',
-        //       url: 'navigator'
-        //     }, {
-        //       zh: '下拉刷新',
-        //       url: 'pull-down-refresh'
-        //     }, {
-        //       zh: '创建动画',
-        //       url: 'animation'
-        //     }, {
-        //       zh: '创建绘画',
-        //       url: 'canvas'
-        //     }, {
-        //       zh: '显示操作菜单',
-        //       url: 'action-sheet'
-        //     }, {
-        //       zh: '显示模态弹窗',
-        //       url: 'modal'
-        //     }, {
-        //       zh: '显示消息提示框',
-        //       url: 'toast'
-        //     }
-        //   ]
-        // }, {
-        //   id: 'device',
-        //   name: '设备',
-        //   open: false,
-        //   pages: [
-        //     {
-        //       zh: '获取手机网络状态',
-        //       url: 'get-network-type'
-        //     }, {
-        //       zh: '获取手机系统信息',
-        //       url: 'get-system-info'
-        //     }, {
-        //       zh: '监听重力感应数据',
-        //       url: 'on-accelerometer-change'
-        //     }, {
-        //       zh: '监听罗盘数据',
-        //       url: 'on-compass-change'
-        //     }, {
-        //       zh: '打电话',
-        //       url: 'make-phone-call'
-        //     }, {
-        //       zh: '扫码',
-        //       url: 'scan-code'
-        //     }
-        //   ]
-        // }, {
-        //   id: 'network',
-        //   name: '网络',
-        //   open: false,
-        //   pages: [
-        //     {
-        //       zh: '发起一个请求',
-        //       url: 'request'
-        //     }, {
-        //       zh: 'WebSocket',
-        //       url: 'web-socket'
-        //     }, {
-        //       zh: '上传文件',
-        //       url: 'upload-file'
-        //     }, {
-        //       zh: '下载文件',
-        //       url: 'download-file'
-        //     }
-        //   ]
-        // }, {
         //   id: 'media',
         //   name: '媒体',
         //   open: false,
