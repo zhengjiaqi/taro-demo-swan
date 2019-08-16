@@ -8,7 +8,7 @@ import feedback from './resources/kind/feedback.png'
 import location from './resources/kind/location.png'
 import media from './resources/kind/media.png'
 import network from './resources/kind/network.png'
-import page from './resources/kind/page.png'
+import page1 from './resources/kind/page.png'
 import storage from './resources/kind/storage.png'
 let images ={
   api,
@@ -17,7 +17,7 @@ let images ={
   location,
   media,
   network,
-  page,
+  page1,
   storage
 }
 
@@ -69,7 +69,7 @@ export default class Index extends Component {
           ]
         },
         {
-          id: 'page',
+          id: 'page1',
           name: '界面',
           open: false,
           pages: [
@@ -137,29 +137,25 @@ export default class Index extends Component {
             }
           ]
         },
+        {
+          id: 'media',
+          name: '媒体',
+          open: false,
+          pages: [
+            // {
+            //   zh: '图片',
+            //   url: 'image'
+            // }, {
+            //   zh: '文件',
+            //   url: 'file'
+            // },
+            {
+              zh: '视频',
+              url: 'video'
+            }
+          ]
+        },
         // {
-        //   id: 'media',
-        //   name: '媒体',
-        //   open: false,
-        //   pages: [
-        //     {
-        //       zh: '图片',
-        //       url: 'image'
-        //     }, {
-        //       zh: '录音',
-        //       url: 'voice'
-        //     }, {
-        //       zh: '背景音频',
-        //       url: 'background-audio'
-        //     }, {
-        //       zh: '文件',
-        //       url: 'file'
-        //     }, {
-        //       zh: '视频',
-        //       url: 'video'
-        //     }
-        //   ]
-        // }, {
         //   id: 'location',
         //   name: '位置',
         //   open: false,

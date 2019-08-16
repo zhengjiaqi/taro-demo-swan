@@ -54,7 +54,8 @@ class App extends Component {
       "pages/API/pages/scan-code/index",
       "pages/API/pages/request/index",
       "pages/API/pages/upload-file/index",
-      "pages/API/pages/download-file/index"
+      "pages/API/pages/download-file/index",
+      "pages/API/pages/video/index"
     ],
     "window": {
       "backgroundTextStyle": "light",

@@ -1,5 +1,6 @@
-dist/
-.temp/
+typings
+emp/
 .rn_temp/
 node_modules/
 .DS_Store
+dist
